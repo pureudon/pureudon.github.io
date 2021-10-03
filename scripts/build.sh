@@ -3,4 +3,5 @@
 set -ex
 
 rm -rf public
+
 hugo
