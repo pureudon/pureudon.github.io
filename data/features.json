@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
+    "title": "UX網頁設計",
+    "description": "為您度身製作企業網站、資訊性網站、個人網頁及電商網站 (Online Shop)，獨一無二的介面設計元素，以用戶體驗 (User Experience) 為主的流程架構，而且是響應式設計(Responsive design)。",
     "image": "images/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "網頁寄存",
+    "description": "為您選用最可靠的，全球最大的服務器服務商，99.9% 運行時間保證，速度快，性能可靠，安全，價格合理。無論是個人網頁，企業網站，還是網上商店，功能資源上都一一支援！",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "公司電郵",
+    "description": "優質客戶會選擇擁有專業電子郵件地址的公司，有了好記且和網域相配的公司電郵帳戶，您便可透過每則訊息來宣傳您的公司。您甚至可以建立 sales@ 或 info@ 之類的電子郵件地址，將訊息傳送至您的信箱。",
     "image": "images/features/noun_3d modeling_1885342.svg"
   }
 ]
