@@ -42,12 +42,13 @@ info@littleredflower.com
 遙距營商計劃(D-Biz) 參考名單編號：SP-xxx-yyy</description></item><item><title>體驗一下</title><link>/feel_it/</link><pubDate>Thu, 22 Feb 2018 17:01:34 +0700</pubDate><guid>/feel_it/</guid><description>quotation demo page ?
 order demo page ?</description></item><item><title>READ_ME</title><link>/read_me/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/read_me/</guid><description>ToDo List: price table page
 /test_content/price_table/ replace zerostaticthemes/hugo-serif-theme -&amp;gt; pureudon
+https://pureudon.github.io/feel_it/
 company icon
 company name ? pure udon page category
 contacts
 pureudon.github.io/data/social.json icons
 repo: git@github.com:pureudon/pureudon.github.io.git sample page / 你要嘅野 / test case: /test_content/
-/test_content/helloworld/ /test_content/paragraph/ /test_content/price_table/ spin up: git clone git@github.com:pureudon/pureudon.github.io.git cd pureudon.github.io scripts/dev.sh</description></item><item><title>READ_ME</title><link>/under_con/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/under_con/</guid><description/></item><item><title>test_content/helloworld.md</title><link>/test_content/helloworld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/test_content/helloworld/</guid><description>back to home
+/test_content/helloworld/ /test_content/paragraph/ /test_content/price_table/ spin up: git clone git@github.com:pureudon/pureudon.github.io.git cd pureudon.github.io scripts/dev.</description></item><item><title>READ_ME</title><link>/under_con/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/under_con/</guid><description/></item><item><title>test_content/helloworld.md</title><link>/test_content/helloworld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/test_content/helloworld/</guid><description>back to home
 https://hackmd.io/features
 http://localhost:1313/test_content/helloworld/
 Features English version 中文版 日本語版
