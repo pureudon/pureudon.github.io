@@ -3,7 +3,16 @@
 {{ define "main" }}
 
   <div>
-    <div style="background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url({{ .Params.intro_image | relURL }}); height: 650px; filter:blur(10px);"></div>
+    <div style="
+      background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url({{ .Params.intro_image | relURL }});
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      height: 650px;
+      filter:blur(10px);
+      ">
+      </div>
     <div class="intro" style="position:absolute; top:65px; width:100vw;">
       <div class="container" >
         <div class="row justify-content-start">
