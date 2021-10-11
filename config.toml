@@ -75,6 +75,16 @@ theme = "hugo-serif-theme"
       weight = 1
 
   [[menu.footer]]
-    name = "聯絡我們"
-    url = "/contact/"
-      weight = 2
+      name = "線上系統開發"
+      url = "/services/web-development/"
+      weight = 4
+
+  [[menu.footer]]
+      name = "服務簡介"
+      url = "/service_table/"
+      weight = 4
+
+  [[menu.footer]]
+      name = "聯絡我們"
+      url = "/contact/"
+      weight = 7
