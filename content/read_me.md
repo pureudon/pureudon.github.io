@@ -8,10 +8,10 @@ title: "READ_ME"
 
 ### sample page / 你要嘅野 / test case:
 
-http://localhost:1313/test_content/
+/test_content/
 
-- [http://localhost:1313/test_content/helloworld/](http://localhost:1313/test_content/helloworld/)
-- [http://localhost:1313/test_content/paragraph/](http://localhost:1313/test_content/paragraph/)
+- [/test_content/helloworld/](/test_content/helloworld/)
+- [/test_content/paragraph/](/test_content/paragraph/)
 
 ### spin up:
 
