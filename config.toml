@@ -34,7 +34,7 @@ theme = "hugo-serif-theme"
     summary_large_truncate = 120  # How many characters to include in the summary of the team bios (large layout) before truncating
 
   [params.footer]
-    copyright_text = '© 2011 <a href="https://pureudon.com">pureudon.com</a> All Rights Reserved'
+    copyright_text = '© 2021 <a href="https://pureudon.com">pureudon.com</a> All Rights Reserved'
 
 [menu]
   # Main Menu
