@@ -46,12 +46,12 @@ theme = "hugo-serif-theme"
   [[menu.main]]
       name = "公司電郵方案"
       url = "/services/company_email_solution/"
-      weight = 4
+      weight = 2
 
   [[menu.main]]
       name = "網上商店"
       url = "/services/e-shop/"
-      weight = 4
+      weight = 3
 
   [[menu.main]]
       name = "線上系統開發"
@@ -61,12 +61,12 @@ theme = "hugo-serif-theme"
   [[menu.main]]
       name = "服務簡介"
       url = "/service_table/"
-      weight = 4
+      weight = 5
 
   [[menu.main]]
       name = "聯絡我們"
       url = "/contact/"
-      weight = 7
+      weight = 6
 
   # Footer Menu
  [[menu.footer]]
@@ -77,14 +77,14 @@ theme = "hugo-serif-theme"
   [[menu.footer]]
       name = "線上系統開發"
       url = "/services/web-development/"
-      weight = 4
+      weight = 2
 
   [[menu.footer]]
       name = "服務簡介"
       url = "/service_table/"
-      weight = 4
+      weight = 3
 
   [[menu.footer]]
       name = "聯絡我們"
       url = "/contact/"
-      weight = 7
+      weight = 4
