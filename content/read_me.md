@@ -10,6 +10,8 @@ title: "READ_ME"
 
 - replace zerostaticthemes/hugo-serif-theme -> pureudon
 
+- https://pureudon.github.io/feel_it/
+
 - [ ] company icon
 
   - company name ? pure udon
