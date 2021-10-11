@@ -12,6 +12,8 @@ title: "READ_ME"
 
 - https://pureudon.github.io/feel_it/
 
+- bottom left corner messaging shortcut
+
 - [ ] company icon
 
   - company name ? pure udon
