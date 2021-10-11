@@ -2,7 +2,7 @@
 title: "Homepage"
 meta_title: "little red flower 網頁設計公司"
 description: "little red flower 網頁設計公司係一間網頁設計公司，專營人性化的設計服務"
-intro_image: "images/test_content/71-1.jpg"
+intro_image: "images/illustrations/web-design.jpg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 ---

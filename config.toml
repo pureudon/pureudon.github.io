@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "hello little red flower"
+title = "little red flower 網頁設計公司"
 themesDir = "themes"
 theme = "hugo-serif-theme"
 
@@ -34,34 +34,39 @@ theme = "hugo-serif-theme"
     summary_large_truncate = 120  # How many characters to include in the summary of the team bios (large layout) before truncating
 
   [params.footer]
-    copyright_text = 'Free Hugo theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
+    copyright_text = '© 2011 <a href="https://pureudon.com">pureudon.com</a> All Rights Reserved'
 
 [menu]
   # Main Menu
   [[menu.main]]
+    name = "首頁"
+    url = "/"
+      weight = 1
+
+  [[menu.main]]
     name = "網頁設計"
     url = "/services/"
-      weight = 1
+      weight = 2
 
   [[menu.main]]
       name = "SEO服務"
       url = "/seo_optimize/"
-      weight = 2
+      weight = 3
 
   [[menu.main]]
       name = "服務簡介"
       url = "/service_table/"
-      weight = 3
+      weight = 4
 
   [[menu.main]]
       name = "聯絡我們"
       url = "/contact/"
-      weight = 4
+      weight = 5
 
   [[menu.main]]
       name = "網頁設計價錢"
       url = "/price_table/"
-      weight = 5
+      weight = 6
 
   [[menu.main]]
       name = "立即報價"
@@ -70,11 +75,11 @@ theme = "hugo-serif-theme"
 
   # Footer Menu
  [[menu.footer]]
-    name = "網頁設計"
+    name = "首頁"
     url = "/"
       weight = 1
 
   [[menu.footer]]
-    name = "關於我們"
+    name = "聯絡我們"
     url = "/contact/"
       weight = 2
