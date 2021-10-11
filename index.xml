@@ -39,7 +39,20 @@ Little Red Flower Ltd.
 Flat A 9/F Capital Trade Centre, 62 Tsun Yip Street, Kwun Tong, KLN, HK
 T: 852-xxxx-yyyy F: 852-aaaa-bbbb
 info@littleredflower.com
-遙距營商計劃(D-Biz) 參考名單編號：SP-xxx-yyy</description></item><item><title>影響SEO的因素</title><link>/seo-strategy/factors-affecting-seo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/seo-strategy/factors-affecting-seo/</guid><description>12 大影響 SEO 的因素 搜索引擎始終並不擁有人的抽象思維，也對海量網頁內容無法直接作出價值評估，所以必須利用各種因素和條件推行演算，以滿足和符合用戶的搜尋期望和預期為根本原則，然後在搜尋結果頁(SERP)以先後次序排列出來，這亦是搜索引擎的核心功能和價值。
+遙距營商計劃(D-Biz) 參考名單編號：SP-xxx-yyy</description></item><item><title>test_content/helloworld.md</title><link>/test_content/helloworld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/test_content/helloworld/</guid><description>http://localhost:1313/test_content/helloworld/
+Features English version 中文版 日本語版
+:arrow_right: Check the source of this note :arrow_left:
+Read the complete tutorial
+Introduction HackMD is a realtime, multi-platform collaborative markdown knowledge base. You can write notes with other people on your desktop, tablet or even on the phone.
+Please report new issues in GitHub. If you need instant help, please send us a Facebook message. Thank you very much!
+Workspace Modes Desktop &amp;amp; Tablet</description></item><item><title>test_content/helloworld.md</title><link>/test_content/paragraph/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/test_content/paragraph/</guid><description>http://localhost:1313/test_content/helloworld/
+微軟：會為 Windows 11 帶來 LTSC 版本 微軟在 AMA（Ask Me Anything：問我任何問題）確認，Windows 11 和 Windows 10 一樣，提供每月安全更新、可選累積更新、服務堆棧更新等服務。
+在 AMA 上微軟還確認，會開發 Windows 11 的 LTSC 版本，但具體發佈時間未定。 LTSC（Long-Term Servicing Channel：長期支援版本）是 Windows 企業版的特殊版本，更加專注於操作系統的長期穩定運行和相容性，支援長達 5 年之久。 為確保穩定性，LTSC 版本只會推送安全性更新，而不添加新的功能。
+微軟計劃在今年 10 月份推出 Windows 11 正式版，預計明年全部推送到支持的設備上。 Windows 10 也已經確認在 2025 年停止支援和更新，LTSC 版本則不受這個限制，依然可以繼續接收更新。
+根據微軟文檔顯示，「Windows 即服務」涵蓋了 Windows 10 和 Windows 11，將每月至少發佈兩次更新。
+簡而言之，也就是現有的 Windows 10 的服務模式也適用在 Windows 11 上。
+每個月的第二個星期二，為微軟的補丁更新日，這些更新將包括安全和非安全更新。 但如果安全問題比較緊急，微軟也可能會提前發佈安全修復補丁。
+helloworld</description></item><item><title>影響SEO的因素</title><link>/seo-strategy/factors-affecting-seo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/seo-strategy/factors-affecting-seo/</guid><description>12 大影響 SEO 的因素 搜索引擎始終並不擁有人的抽象思維，也對海量網頁內容無法直接作出價值評估，所以必須利用各種因素和條件推行演算，以滿足和符合用戶的搜尋期望和預期為根本原則，然後在搜尋結果頁(SERP)以先後次序排列出來，這亦是搜索引擎的核心功能和價值。
 反向連結(Backlinks) 原創性內容(Content) 內容結構(Schema) 錨點文字(Anchor Text) 關鍵字(Keyword) 點擊流量(Click Flow) 域名權重(Domain Rating) 響應式設計(Responsive) 加載速度(Loading Speed) 內容可讀性(UX) 網站安全(Web Security) 社交媒體(Social Media)
 Google12 大排名因素的權重比率 https://isualsense.com/seo-strategy/factors-affecting-seo/
 反向連結 Backlinks 0% 反向鏈接所佔 SEO 權重百分比估算 什麼是反向連結(Backlinks)？當一個網站 A 通過超連結(Hyperlink)連結到另一個網站 B 會產生外部連結(External Link)，這條外部連結對網站 B 而言就稱為反向連結(Backlink)。
