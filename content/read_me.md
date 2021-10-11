@@ -10,6 +10,8 @@ title: "READ_ME"
 
 - replace zerostaticthemes/hugo-serif-theme -> pureudon
 
+- simple snapshot screen capture of pages -> test
+
 - https://pureudon.github.io/feel_it/
 
 - bottom left corner messaging shortcut
