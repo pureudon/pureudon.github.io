@@ -4,6 +4,8 @@ title: "READ_ME"
 
 ### ToDo List:
 
+- [ ] collect contents
+
 - [ ] price table page
 
   - [/test_content/price_table/](/test_content/price_table/)
