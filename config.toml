@@ -59,8 +59,8 @@ theme = "hugo-serif-theme"
       weight = 4
 
   [[menu.main]]
-      name = "服務簡介"
-      url = "/service_table/"
+      name = "體驗一下"
+      url = "/feel_it/"
       weight = 5
 
   [[menu.main]]
