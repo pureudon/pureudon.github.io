@@ -30,6 +30,8 @@ title: "READ_ME"
 
 - [ ] icons
 
+- [ ] clone to firebase hosting for custom domain
+
 ### repo:
 
 - git@github.com:pureudon/pureudon.github.io.git
