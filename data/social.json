@@ -1,12 +1,32 @@
 [
-    {
-        "name": "Github",
-        "link": "https://github.com/zerostaticthemes/hugo-serif-theme",
-        "image": "images/social/github.svg"
-    },
-    {
-        "name": "Twitter",
-        "link": "https://twitter.com/zerostaticio",
-        "image": "images/social/twitter.svg"
-    }
+  {
+    "name": "Whatsapp",
+    "link": "https://facebook.com/pureudon",
+    "image": "images/social/whatsapp.svg"
+  },
+  {
+    "name": "signal",
+    "link": "https://facebook.com/pureudon",
+    "image": "images/social/signal.svg"
+  },
+  {
+    "name": "telegram",
+    "link": "https://facebook.com/pureudon",
+    "image": "images/social/telegram.svg"
+  },
+  {
+    "name": "slack",
+    "link": "https://facebook.com/pureudon",
+    "image": "images/social/slack.svg"
+  },
+  {
+    "name": "Facebook",
+    "link": "https://facebook.com/pureudon",
+    "image": "images/social/facebook.svg"
+  },
+  {
+    "name": "Github",
+    "link": "https://github.com/zerostaticthemes/hugo-serif-theme",
+    "image": "images/social/github.svg"
+  }
 ]

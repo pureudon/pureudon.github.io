@@ -44,16 +44,6 @@ theme = "hugo-serif-theme"
       weight = 1
 
   [[menu.main]]
-    name = "網頁設計"
-    url = "/services/"
-      weight = 2
-
-  [[menu.main]]
-      name = "SEO服務"
-      url = "/seo_optimize/"
-      weight = 3
-
-  [[menu.main]]
       name = "服務簡介"
       url = "/service_table/"
       weight = 4
@@ -61,16 +51,6 @@ theme = "hugo-serif-theme"
   [[menu.main]]
       name = "聯絡我們"
       url = "/contact/"
-      weight = 5
-
-  [[menu.main]]
-      name = "網頁設計價錢"
-      url = "/price_table/"
-      weight = 6
-
-  [[menu.main]]
-      name = "立即報價"
-      url = "/quote_now/"
       weight = 7
 
   # Footer Menu

@@ -12,8 +12,12 @@ title: "READ_ME"
 
   - company name ? pure udon
 
-- [ ] icons
-- [ ] icons
+- [ ] page category
+
+- [ ] contacts
+
+  - pureudon.github.io/data/social.json
+
 - [ ] icons
 
 ### repo:

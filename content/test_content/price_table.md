@@ -4,6 +4,8 @@ title: "test_content/price_table.md"
 
 [back to home](/)
 
+![](http://localhost:1313/images/quote_now/price_table.jpg)
+
 # source :
 
 [https://isualsense.com/web-design/web-design-quote/](https://isualsense.com/web-design/web-design-quote/)
