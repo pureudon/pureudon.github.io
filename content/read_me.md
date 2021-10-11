@@ -8,6 +8,8 @@ title: "READ_ME"
 
   - [/test_content/price_table/](/test_content/price_table/)
 
+- replace zerostaticthemes/hugo-serif-theme -> pureudon
+
 - [ ] company icon
 
   - company name ? pure udon
