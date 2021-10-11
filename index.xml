@@ -39,8 +39,8 @@ Little Red Flower Ltd.
 Flat A 9/F Capital Trade Centre, 62 Tsun Yip Street, Kwun Tong, KLN, HK
 T: 852-xxxx-yyyy F: 852-aaaa-bbbb
 info@littleredflower.com
-遙距營商計劃(D-Biz) 參考名單編號：SP-xxx-yyy</description></item><item><title>READ_ME</title><link>/read_me/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/read_me/</guid><description>repo: git@github.com:pureudon/pureudon.github.io.git sample page / 你要嘅野 / test case: http://localhost:1313/test_content/
-http://localhost:1313/test_content/helloworld/ http://localhost:1313/test_content/paragraph/ spin up: git clone git@github.com:pureudon/pureudon.github.io.git cd pureudon.github.io scripts/dev.sh</description></item><item><title>test_content/helloworld.md</title><link>/test_content/helloworld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/test_content/helloworld/</guid><description>back to home
+遙距營商計劃(D-Biz) 參考名單編號：SP-xxx-yyy</description></item><item><title>READ_ME</title><link>/read_me/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/read_me/</guid><description>repo: git@github.com:pureudon/pureudon.github.io.git sample page / 你要嘅野 / test case: /test_content/
+/test_content/helloworld/ /test_content/paragraph/ spin up: git clone git@github.com:pureudon/pureudon.github.io.git cd pureudon.github.io scripts/dev.sh</description></item><item><title>test_content/helloworld.md</title><link>/test_content/helloworld/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/test_content/helloworld/</guid><description>back to home
 http://localhost:1313/test_content/helloworld/
 Features English version 中文版 日本語版
 :arrow_right: Check the source of this note :arrow_left:
