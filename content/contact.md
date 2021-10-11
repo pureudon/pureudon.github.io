@@ -8,17 +8,12 @@ pureudon Ltd.
 
 Flat A 9/F Capital Trade Centre, 62 Tsun Yip Street, Kwun Tong, KLN, HK
 
-T: 852-2352-7518
 F: 852-2628-0127
 
-info@littleredflower.com
+**客服**: info@littleredflower.com
 
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Monday    | 8:30am - 6:00pm |
-| Tuesday   | 8:30am - 6:00pm |
-| Wednesday | 8:30am - 6:00pm |
-| Thursday  | 8:30am - 6:00pm |
-| Friday    | 8:30am - 6:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Sunday    | Closed          |
+電話: +852-2352-7518
+
+Whatsapp: +852-2628-0127
+
+客服時間: 10:00am - 07:00pm
