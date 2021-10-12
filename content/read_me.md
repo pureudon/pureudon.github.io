@@ -32,6 +32,8 @@ title: "READ_ME"
 
 - [ ] clone to firebase hosting for custom domain
 
+- [ ] http://localhost:1313/contact/ fix responsive
+
 ### repo:
 
 - git@github.com:pureudon/pureudon.github.io.git

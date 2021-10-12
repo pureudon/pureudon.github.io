@@ -7,6 +7,18 @@
   <title>{{ block "title" . }}{{ if .Params.meta_title }}{{ .Params.meta_title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="{{ "favicon-32x32.svg" | relURL }}">
+
+  <link rel="stylesheet" href="/css/custom.css">
+
+
+  <link rel="stylesheet" href="/css/mapbox.css">
+
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.css" rel="stylesheet">
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.5.0/mapbox-gl.js"></script>
+  <!-- <script src="/js/mapbox.js"></script> -->
+
+
   {{ partial "google-fonts.html" . }}
 
   <!-- CSS-->
@@ -33,22 +45,9 @@
   {{ end }}
 
   <style>
-    .intro .container  ul {
-      padding-left:3rem;
-      padding-top:1rem;
-      padding-bottom:1rem;
-    }
-    .intro .container  li {
-      padding: 0.1rem;
-      letter-spacing: 2px;
-      line-height: 1.5rem;
-    }
 
-    p {
-      letter-spacing: 2px;
-      line-height: 1.5rem;
 
-    }
+
   </style>
 
 </head>
