@@ -4,6 +4,12 @@ title: "READ_ME"
 
 ### ToDo List:
 
+![](/images/whatsapp_quicklink.png)
+
+![](/images/project_gallery.png)
+
+![](/images/service_enquiry.png)
+
 - [ ] collect contents
 
 - [ ] price table page
