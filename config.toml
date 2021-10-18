@@ -60,7 +60,7 @@ theme = "hugo-serif-theme"
 
   [[menu.main]]
       name = "體驗一下"
-      url = "/feel_it/"
+      url = "/try_it/"
       weight = 5
 
   [[menu.main]]

@@ -1,0 +1,72 @@
+{{ define "body_classes" }}tryit-project-single{{ end }}
+
+{{ define "main" }}
+  <div class="container pb-6 pt-6 pt-md-10 pb-md-10 price-table-container">
+    <div class="col-12" >
+        <h2 class="tryit-name" style="text-align:center;margin: 1rem 0rem; height:5rem;">
+            {{ .Title }}
+        </h2>
+
+        <div style="width:100%; display:flex;flex-flow:row; justify-content: center;">
+
+          <div class="tryit-image" style='
+            background-image: url("{{ .Params.image | relURL }}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            width:100%;
+            max-width:860px;
+            /* height:480px; */
+            border-radius: 5px;
+
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            '>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="content" style="width:100%; padding-top: 5rem;">{{.Content}}</div>
+
+
+      {{ if .Params.try_link }}
+
+        <div style="
+        display:flex;
+        flex-flow:row;
+        justify-content: center;
+        padding-top: 2rem;
+          ">
+          <a target="_blank" rel="noreferrer" href="{{ .Params.try_link }}"> 前往網站 <img class='link-icon' src="/images/arrow-right-circle.svg" />
+          </a>
+        </div>
+      {{ end }}
+
+
+
+      <div style="
+      display:flex;
+      flex-flow:row;
+      justify-content: center;
+      padding-top: 2rem;
+        ">
+          <a rel="noreferrer" href="/try_it/"> <img class='link-icon' src="/images/arrow-left-circle.svg" /> 回到作品介紹
+          </a>
+        </div>
+
+  </div>
+
+{{ end }}
+
+{{ define "footer_js" }}
+{{ $library := resources.Get "js/libs/library.js" }}
+{{ $services := resources.Get "js/pages/services.js" }}
+{{ $servicesJS := slice $library $services |resources.Concat "js/services.js" }}
+
+{{ if .Site.IsServer }}
+  <script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>
+  {{ else }}
+  <script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).RelPermalink }}"></script>
+  {{ end }}
+{{ end }}

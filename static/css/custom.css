@@ -1,3 +1,12 @@
+/*
+  $primary: #334756;
+  $secondary: #f0a500;
+  $black: #2f2f41;
+  $white: #ffffff;
+  $white-offset: #f6f7ff;
+  $steel: #5c5a5a;
+*/
+
 .intro .container ul {
   padding-left: 3rem;
   padding-top: 1rem;
@@ -90,6 +99,51 @@ p {
   flex-flow: row;
   justify-content: center;
 }
+
+.tryit-image {
+  height: 480px;
+}
+
+.link-icon {
+  padding: 0rem 0.5rem;
+}
+
+.page-tryit .intro {
+  padding-bottom: 10px;
+}
+
+.page-tryit .intro-image h1 {
+  width: 100%;
+  color: whitesmoke !important;
+}
+
+.page-tryit .intro-image h1::first-letter {
+  font-size: 120%;
+  letter-spacing: 0.1rem;
+  color: #f0a500;
+}
+
+.page-tryit .intro-image p {
+  width: 100%;
+  color: whitesmoke !important;
+}
+
+.page-tryit .intro p:nth-of-type(1) {
+  width: 100%;
+}
+
+.page-tryit .intro-mobile {
+  display: none;
+}
+
+.page-tryit .intro-image {
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1172&q=80);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 @media only screen and (max-width: 1920px) {
 }
 
@@ -108,12 +162,28 @@ p {
   }
 
   .price-table-card-container {
-    background-color: red;
+    /* background-color: red; */
   }
+
   .price-table-card {
     width: 100%;
     padding: 1rem;
     margin: 2rem 0rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .intro {
+    padding-bottom: 0px !important;
+    text-align: center;
+  }
+  .tryit-image {
+    height: 300px;
+  }
+
+  .page-tryit .intro-image {
+    display: none;
+  }
+
+  .page-tryit .intro-mobile {
+    display: block;
   }
 }
