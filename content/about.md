@@ -20,7 +20,7 @@ Flat A 9/F Capital Trade Centre, 62 Tsun Yip Street, Kwun Tong, KLN, HK
 T: 852-xxxx-yyyy
 F: 852-aaaa-bbbb
 
-info@littleredflower.com
+info@pureudon.com
 
 遙距營商計劃(D-Biz)
 參考名單編號：SP-xxx-yyy

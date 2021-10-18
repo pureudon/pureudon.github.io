@@ -16,7 +16,7 @@ layout: contact
 
 **地址**：Flat A 9/F Capital Trade Centre, 62 Tsun Yip Street, Kwun Tong, KLN, HK
 
-**客服**: info@littleredflower.com
+**客服**: info@pureudon.com
 
 **電話**: +852-2352-7518
 
