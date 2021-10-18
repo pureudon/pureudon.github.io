@@ -4,41 +4,24 @@ title: "READ_ME"
 
 ### ToDo List:
 
-![](/images/whatsapp_quicklink.png)
+- [ ] 0%, bottom left corner messaging shortcut
+      ![](/images/whatsapp_quicklink.png)
 
-![](/images/project_gallery.png)
+- [ ] 50%
+      ![](/images/project_gallery.png)
 
-![](/images/service_enquiry.png)
+- [ ] 0% -> endpoint available on hosting, submit to email ?
+      ![](/images/service_enquiry.png)
+
+- [ ] http://localhost:1313/contact/ fix responsive
 
 - [ ] collect contents
 
-- [ ] price table page
-
-  - [/test_content/price_table/](/test_content/price_table/)
-
-- replace zerostaticthemes/hugo-serif-theme -> pureudon
-
-- simple snapshot screen capture of pages -> test
-
-- https://pureudon.github.io/feel_it/
-
-- bottom left corner messaging shortcut
-
-- [ ] company icon
-
-  - company name ? pure udon
-
-- [ ] page category
-
-- [ ] contacts
-
-  - pureudon.github.io/data/social.json
-
-- [ ] icons
+- [ ] simple snapshot screen capture of pages -> test
 
 - [ ] clone to firebase hosting for custom domain
 
-- [ ] http://localhost:1313/contact/ fix responsive
+  - use kevins web hosting ?
 
 ### repo:
 
