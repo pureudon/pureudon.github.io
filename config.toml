@@ -80,8 +80,8 @@ theme = "hugo-serif-theme"
       weight = 2
 
   [[menu.footer]]
-      name = "服務簡介"
-      url = "/service_table/"
+      name = "設計套餐"
+      url = "/price_table/table/"
       weight = 3
 
   [[menu.footer]]
