@@ -107,17 +107,8 @@
 </button>
 </div>
 </div>
-<div id=map style="height:calc(100vh - 130px - 65px);width:100vw"></div>
-<script>mapboxgl.accessToken="pk.eyJ1IjoibG9naWNrZWUiLCJhIjoiY2l3cDF1NDZ6MDAzYTJzcWJkYjdrc3M2eSJ9.olztNlbp6uVOOByAvnmUXg";const map=new mapboxgl.Map({style:"mapbox://styles/mapbox/light-v10",center:[114.218319,22.311422],zoom:16,pitch:45,bearing:-17.6,container:"map",antialias:!0});map.on("load",()=>{const a=map.getStyle().layers,b=a.find(a=>a.type==="symbol"&&a.layout["text-field"]).id;map.addLayer({id:"add-3d-buildings",source:"composite","source-layer":"building",filter:["==","extrude","true"],type:"fill-extrusion",minzoom:15,paint:{"fill-extrusion-color":"#CEDDE8","fill-extrusion-height":["interpolate",["linear"],["zoom"],15,0,15.05,["get","height"]],"fill-extrusion-base":["interpolate",["linear"],["zoom"],15,0,15.05,["get","min_height"]],"fill-extrusion-opacity":.6}},b)});const geojson={type:"FeatureCollection",features:[{type:"Feature",properties:{message:"Foo",iconSize:[60,60]},geometry:{type:"Point",coordinates:[114.223319,22.311422]}}]},popup=new mapboxgl.Popup({closeOnClick:!1,closeButton:!1}).setLngLat([114.223319,22.311422]).setHTML(`
-    <div>
-      <img src="/images/logo/logo.svg" />
-      <div style="text-align:right">
-        <h1>我地係喱度 ??</h1>
-      </div>
-    </div>
-    `).addTo(map)</script>
-<div style="position:absolute;top:150px;left:150px;background:rgba( 230,230,230,.6 );box-shadow:0 8px 32px rgba( 31,38,135,.37 );backdrop-filter:blur( 8.5px );-webkit-backdrop-filter:blur( 8.5px );border-radius:10px;border:1px solid rgba( 255,255,255,.18 )">
-<div class="content mt-4" style=padding:2rem><h1 id=我們樂意和您一齊解決問題>我們樂意和您一齊解決問題&mldr;</h1>
+<div class=content-mobile>
+<h1 id=我們樂意和您一齊解決問題>我們樂意和您一齊解決問題&mldr;</h1>
 <p><strong>注冊編號</strong>: 2392755</p>
 <p><strong>中文名稱</strong>: 清水烏冬有限公司</p>
 <p><strong>英文名稱</strong>: PURE UDON LIMITED</p>
@@ -127,6 +118,30 @@
 <p><strong>電話</strong>: +852-2352-7518</p>
 <p><strong>Whatsapp</strong>: +852-2628-0127</p>
 <p><strong>辦公時間</strong>: 10:00am - 07:00pm</p>
+</div>
+<div class=content-desktop>
+<div id=map style="height:calc(100vh - 130px - 65px);width:100vw"></div>
+<script>mapboxgl.accessToken="pk.eyJ1IjoibG9naWNrZWUiLCJhIjoiY2l3cDF1NDZ6MDAzYTJzcWJkYjdrc3M2eSJ9.olztNlbp6uVOOByAvnmUXg";const map=new mapboxgl.Map({style:"mapbox://styles/mapbox/light-v10",center:[114.218319,22.311422],zoom:16,pitch:45,bearing:-17.6,container:"map",antialias:!0});map.on("load",()=>{const a=map.getStyle().layers,b=a.find(a=>a.type==="symbol"&&a.layout["text-field"]).id;map.addLayer({id:"add-3d-buildings",source:"composite","source-layer":"building",filter:["==","extrude","true"],type:"fill-extrusion",minzoom:15,paint:{"fill-extrusion-color":"#CEDDE8","fill-extrusion-height":["interpolate",["linear"],["zoom"],15,0,15.05,["get","height"]],"fill-extrusion-base":["interpolate",["linear"],["zoom"],15,0,15.05,["get","min_height"]],"fill-extrusion-opacity":.6}},b)});const geojson={type:"FeatureCollection",features:[{type:"Feature",properties:{message:"Foo",iconSize:[60,60]},geometry:{type:"Point",coordinates:[114.223319,22.311422]}}]},popup=new mapboxgl.Popup({closeOnClick:!1,closeButton:!1}).setLngLat([114.223319,22.311422]).setHTML(`
+        <div>
+          <img src="/images/logo/logo.svg" />
+          <div style="text-align:right">
+            <h1>我地係喱度 ??</h1>
+          </div>
+        </div>
+        `).addTo(map)</script>
+<div style="position:absolute;top:150px;left:150px;background:rgba( 230,230,230,.6 );box-shadow:0 8px 32px rgba( 31,38,135,.37 );backdrop-filter:blur( 8.5px );-webkit-backdrop-filter:blur( 8.5px );border-radius:10px;border:1px solid rgba( 255,255,255,.18 )">
+<div class="content m-2">
+<h1 id=我們樂意和您一齊解決問題>我們樂意和您一齊解決問題&mldr;</h1>
+<p><strong>注冊編號</strong>: 2392755</p>
+<p><strong>中文名稱</strong>: 清水烏冬有限公司</p>
+<p><strong>英文名稱</strong>: PURE UDON LIMITED</p>
+<p><strong>成立日期</strong>: 2016-06-20</p>
+<p><strong>地址</strong>：Flat A 9/F Capital Trade Centre, 62 Tsun Yip Street, Kwun Tong, KLN, HK</p>
+<p><strong>客服</strong>: <a href=mailto:info@pureudon.com>info@pureudon.com</a></p>
+<p><strong>電話</strong>: +852-2352-7518</p>
+<p><strong>Whatsapp</strong>: +852-2628-0127</p>
+<p><strong>辦公時間</strong>: 10:00am - 07:00pm</p>
+</div>
 </div>
 </div>
 </div>
@@ -184,6 +199,7 @@
 </div>
 </div>
 </div>
+<script type=text/javascript src=/js/services.min.052ec1d7bcff8bba2b50359ebe62c0e6d0f530b3bd5cf723d5ccc5e8f22bd123.js></script>
 <script type=text/javascript src=/js/scripts.min.98ee06cc35517b5800b382aecb0fc59893e95b9c11dd21842d0d57e4f68043e3.js></script>
 </body>
 </html>

@@ -60,15 +60,6 @@ p {
   padding-left: 1rem;
 }
 
-.page-contact h1 {
-  font-size: 120%;
-}
-.page-contact h1::first-letter {
-  letter-spacing: 0.1rem;
-  font-size: 150%;
-  padding-top: 2rem;
-}
-
 .price_table_group {
   display: flex;
   flex-flow: row;
@@ -144,6 +135,13 @@ p {
   background-repeat: no-repeat;
 }
 
+.page-contact h1 {
+}
+
+.content-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1920px) {
 }
 
@@ -185,5 +183,20 @@ p {
 
   .page-tryit .intro-mobile {
     display: block;
+  }
+
+  .page-contact h1 {
+    text-align: center;
+  }
+
+  .page-contact p {
+    padding-left: 1rem;
+  }
+  .content-mobile {
+    display: block;
+  }
+
+  .content-desktop {
+    display: none;
   }
 }
