@@ -113,12 +113,11 @@
       // }
 
       const popup = new mapboxgl.Popup({ closeOnClick: false, closeButton: false })
-        .setLngLat([114.223319, 22.311422])
+        .setLngLat([{{ .Params.Lng }}, {{ .Params.Lat }}])
         .setHTML(`
         <div>
-          <img src="/images/logo/logo.svg" />
-          <div style="text-align:right">
-            <h1>我地係喱度 ??</h1>
+          <div style="font-size: 1rem;">
+            <p>😃：我地係喱度</p>
           </div>
         </div>
         `)
