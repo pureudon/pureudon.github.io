@@ -4,4 +4,9 @@ set -ex
 
 rm -rf public
 
-hugo
+hugo  \
+  --cleanDestinationDir \
+  --enableGitInfo \
+  --gc \
+  --ignoreCache \
+  --minify
