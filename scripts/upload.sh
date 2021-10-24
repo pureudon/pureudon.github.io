@@ -2,6 +2,8 @@
 
 set -ex
 
+./scripts/build.sh
+
 ncftpput -R -v \
   -u $PUREUDON_FTP_USERNAME \
   -p $PUREUDON_FTP_PASSWORD \
