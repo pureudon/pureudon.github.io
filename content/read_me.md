@@ -2,7 +2,9 @@
 title: "READ_ME"
 ---
 
-### ToDo List:
+### check list:
+
+- 我想要 project 流程
 
 - [ ] 50%, bottom left corner messaging shortcut
       ![](/images/whatsapp_quicklink.png)
