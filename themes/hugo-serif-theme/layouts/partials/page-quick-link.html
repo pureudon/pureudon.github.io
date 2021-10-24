@@ -1,0 +1,47 @@
+<style>
+  .feedback {
+    border-color: #f0a500;
+    background-color : #f0a500;
+    color: ghostwhite;
+    padding: 1em 1em;
+    border-radius: 100%;
+  }
+
+  #mybutton {
+    position: fixed;
+    bottom: 20vh;
+    right: 5vw;
+  }
+
+  .button5 {
+    background-color: #f0a500;
+    border: none;
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+  }
+
+</style>
+
+<div id="mybutton">
+  <button
+    class="button button5"
+    onclick="openMessenger()"
+    >
+      <div style="
+        background-image: url('images/social/whatsapp.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 1rem;
+      ">
+      </div>
+  </button>
+</div>
+
+<script>
+  function openMessenger(){
+    window.open('https://api.whatsapp.com/send?phone=85291234567', '_blank').focus();
+    document.querySelector('.button5').blur()
+  }
+</script>
