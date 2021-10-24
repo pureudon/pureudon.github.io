@@ -7,7 +7,7 @@ update from louis website
 
 ### setup dev environment
 
-`scripts/init.sh.sh`
+`scripts/init.sh`
 
 ### preview changes locally
 
@@ -16,3 +16,7 @@ update from louis website
 ### build static page
 
 `scripts/build.sh`
+
+### upload page
+
+`scripts/upload.sh`
