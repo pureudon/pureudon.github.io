@@ -1,8 +1,8 @@
 ---
 title: "project2"
 date: 2018-12-20T13:44:30+10:00
-draft: true
-image: "https://images.unsplash.com/photo-1518599807935-37015b9cefcb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80"
+draft: false
+image: "try_it/images/project2.png"
 jobtitle: "project2 summary"
 try_link: "https://www.amazon.com"
 weight: 3
