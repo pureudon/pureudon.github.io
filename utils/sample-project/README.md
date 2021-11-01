@@ -4,7 +4,7 @@
 export PUREUDON_FTP_HOST=<hhhhh>
 export PUREUDON_FTP_USERNAME=<uuuuu>
 export PUREUDON_FTP_PASSWORD=<ppppp>
-export PUREUDON_HOMEPAGE_PATH=/private_html/demo-project/sample-project
+export PUREUDON_HOMEPAGE_PATH=/private_html/demo/sample-project
 ```
 
 ### to upload new demo project
@@ -12,3 +12,7 @@ export PUREUDON_HOMEPAGE_PATH=/private_html/demo-project/sample-project
 1. create .env file as above
 1. upadte .env -> PUREUDON_HOMEPAGE_PATH
 1. at root directory, ./scripts/upload.sh
+
+### Demo url:
+
+https://pureudon.com/demo/sample-project
