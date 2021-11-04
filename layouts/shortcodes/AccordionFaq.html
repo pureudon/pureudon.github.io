@@ -1,0 +1,56 @@
+<style>
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+
+  .active,
+  .accordion:hover {
+    background-color: #ccc;
+  }
+
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+</style>
+
+<div>
+  <button class="accordion" id="accordion-{{ index .Params 0 }}">{{ index .Params 0 }}</button>
+  <div class="panel" id="accordion-panel-{{ index .Params 0 }}">
+    <p>
+      {{ .Inner }}
+    </p>
+  </div>
+</div>
+
+
+<script>
+  (()=>{
+    var ele_acc = document.querySelector("#accordion-{{ index .Params 0 }}");
+    var ele_acc_panel = document.querySelector("#accordion-panel-{{ index .Params 0 }}");
+
+    if ({{ index .Params 1 }} === 'default_open'){
+      ele_acc_panel.style.display = "block";
+    }
+
+    ele_acc.addEventListener("click", function () {
+      ele_acc.classList.toggle("active");
+      if (ele_acc_panel.style.display === "block") {
+        ele_acc_panel.style.display = "none";
+      } else {
+        ele_acc_panel.style.display = "block";
+      }
+    });
+  })()
+</script>
