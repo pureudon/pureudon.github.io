@@ -38,11 +38,19 @@
         justify-content: center;
         padding-top: 2rem;
           ">
-          <a target="_blank" rel="noreferrer" href="{{ .Params.try_link }}">
-            前往網站
-            <img class='link-icon' src="/images/arrow-right-circle.svg" />
-          </a>
+
+          <div style="display: inline-block;vertical-align: baseline;" onclick="window.open({{ .Params.try_link }}, '_blank').focus();">
+            <span class="btn-1">
+              <span class="text">前往網站</span>
+              <span class="icon btn-after-test">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </span>
+            </span>
+          </div>
+
         </div>
+
+
       {{ end }}
 
 
@@ -53,8 +61,18 @@
       justify-content: center;
       padding-top: 2rem;
         ">
-          <a rel="noreferrer" href="/try_it/"> <img class='link-icon' src="/images/arrow-left-circle.svg" /> 回到作品介紹
-          </a>
+   
+
+          <div style="display: inline-block;vertical-align: baseline;" onclick="window.location.href = '/try_it'">
+            <span class="btn-1">
+              <span class="text">回到作品介紹</span>
+              <span class="icon btn-after-test">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="12 8 8 12 12 16"></polyline><line x1="16" y1="12" x2="8" y2="12"></line></svg>
+              </span>
+            </span>
+          </div>
+
+
         </div>
 
   </div>
