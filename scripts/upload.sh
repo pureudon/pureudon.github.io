@@ -9,4 +9,4 @@ ncftpput -R -v -m \
   -p $PUREUDON_FTP_PASSWORD \
   $PUREUDON_FTP_HOST \
   $PUREUDON_HOMEPAGE_PATH \
-  $PWD/public/*
+  $PWD/public

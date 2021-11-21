@@ -2,7 +2,7 @@
 title: "CRM 網站"
 date: 2018-12-20T13:44:30+10:00
 draft: false
-image: "/images/try_it/project1/login.png"
+image: "try_it/project1/images/screencapture.png"
 jobtitle: "CRM 網站 - 幫助企業整合前、後台所有業務流程"
 try_link: "/demo/CRM-demo/"
 weight: 3
